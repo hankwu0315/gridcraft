@@ -93,7 +93,10 @@ pub(crate) const CATALOG: &[(&str, &str)] = &[
     ("Allow all users of this sheet to:", "允許此工作表的所有使用者："),
     ("Alpha:", "透明度："),
     ("An equation can be at most 4096 bytes long.", "方程式最長為 4096 位元組。"),
-    ("An equation can have at most 2500 matrix cells (rows times the widest row).", "方程式最多只能有 2500 個矩陣儲存格（列數乘以最寬一列的儲存格數）。"),
+    (
+        "An equation can have at most 2500 matrix cells (rows times the widest row).",
+        "方程式最多只能有 2500 個矩陣儲存格（列數乘以最寬一列的儲存格數）。",
+    ),
     ("Analysis Tools", "分析工具"),
     ("Angle Clockwise", "順時針旋轉"),
     ("Angle Counterclockwise", "逆時針旋轉"),
@@ -1319,7 +1322,10 @@ pub(crate) const CATALOG: &[(&str, &str)] = &[
     ("not equal to", "不等於"),
     ("only one infix operator per group", "每個群組只能有一個中綴運算子"),
     ("prooftree ended with {count} proof stack item(s), expected 1", "prooftree 結束時證明堆疊中有 {count} 個項目，應為 1 個"),
-    ("prooftree has a \\LeftLabel or \\RightLabel without a following inference command", "prooftree 中的 \\LeftLabel 或 \\RightLabel 之後沒有推論指令"),
+    (
+        "prooftree has a \\LeftLabel or \\RightLabel without a following inference command",
+        "prooftree 中的 \\LeftLabel 或 \\RightLabel 之後沒有推論指令",
+    ),
     ("t-Test: Paired Two Sample for Means", "t 檢定：成對兩樣本平均數"),
     ("t-Test: Two-Sample Assuming Equal Variances", "t 檢定：假設變異數相等的雙樣本"),
     ("t-Test: Two-Sample Assuming Unequal Variances", "t 檢定：假設變異數不相等的雙樣本"),

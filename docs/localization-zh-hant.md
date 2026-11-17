@@ -18,8 +18,8 @@
 
 ### 函數說明
 
-`crates/ui-egui/src/i18n/zh_hant_functions.rs` 提供函數目錄中全部 479 則函數說明與
-283 個引數名稱的繁中譯文（引數提示、自動完成、插入函數對話方塊及「公式」索引標籤選單），
+`crates/ui-egui/src/i18n/zh_hant_functions.rs` 提供函數目錄中全部 480 則函數說明與
+286 個引數名稱的繁中譯文（引數提示、自動完成、插入函數對話方塊及「公式」索引標籤選單），
 採用台灣 Excel 用語，例如「傳回、參照、儲存格、陣列、引數、常態分配、變異數、亂數」。
 譯文以 #3271（acebd12345）的翻譯為基礎，並依台灣用語修訂。`cargo xtask i18n-report`
 會列出目錄已不存在的英文鍵；測試確認每個函數都有繁中說明。
@@ -63,8 +63,8 @@ strings fall back to English. Formula syntax, number/date formats, document cont
 and command IDs retain their existing behavior. Adding this catalog does not imply complete
 application localization.
 
-Worksheet function help is in `crates/ui-egui/src/i18n/zh_hant_functions.rs`: all 479 function
-descriptions and 283 argument names in the function catalog (argument hints, autocomplete, Insert
+Worksheet function help is in `crates/ui-egui/src/i18n/zh_hant_functions.rs`: all 480 function
+descriptions and 286 argument names in the function catalog (argument hints, autocomplete, Insert
 Function and the Formulas-tab menus), in Taiwan Excel terms. It builds on the translations in #3271
 by acebd12345, revised for Taiwan usage; a test checks every catalog function has a description.
 
